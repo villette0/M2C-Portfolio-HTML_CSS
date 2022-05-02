@@ -1,13 +1,15 @@
 :root {
-    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    --teal: #85D3D3;
+    --font: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+        Arial, sans-serif;
+    --teal: #85d3d3;
     --dark-blue: #263763;
+    --lilac: #e8eaf6;
 }
 
 /* Header styling*/
 .header {
     font-family: var(--font);
-    background-color: var(--dark-blue)
+    background-color: var(--dark-blue);
 }
 
 .header h1 {
@@ -18,7 +20,6 @@
     padding: 3px 3px 3px 90px;
     margin: 10px 0px 10px 0px;
 }
-
 
 /* Navigation link styling */
 .header nav {
@@ -35,14 +36,37 @@
     padding: 4px;
 }
 
-a {
+.header nav ul li a {
     color: var(--teal);
     text-decoration: none;
 }
 
+/* Top background image styling */
+.background-image {
+    height: 200px;
+    width: 100%;
+    background-image: url("../images/blue-stripes.png");
+    background-color: var(--lilac);
+    background-size: cover;
+    background-position: center;
+}
+
+.background-image h2 {
+    float: right;
+    margin-top: 100px;
+    padding: 3px;
+    font-size: 30px;
+    color: var(--dark-blue);
+    background-color: var(--teal);
+    padding: 6px;
+    font-family: var(--font);
+}
+
 /*Main section styling */
 main {
-    background-color: #e6e6ff;
+    background-color: var(--lilac);
+    margin-top: -18px;
+    padding-top: 30px;
 }
 
 .section {
@@ -54,13 +78,13 @@ main {
 
 .section-title {
     width: 25%;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font);
     text-align: right;
     padding-right: 20px;
     margin-right: 10px;
-    color: #263763;
+    color: var(--dark-blue);
 }
 
 .section-contents {
@@ -70,14 +94,15 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    display: inline;
 }
 
 .section-contents p {
-    width: 70%;
     margin-left: 10px;
     font-size: 18px;
     line-height: 1.5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font);
+    color: var(--dark-blue);
 }
 
 /* About me styling */
@@ -85,7 +110,10 @@ main {
     background-image: url(../images/vcphoto.png);
     height: 225px;
     width: 200px;
+    float:left;
+    margin-right: 15px;
 }
+
 /* Work styling*/
 .grid-container {
     padding-left: 50px;
@@ -94,6 +122,7 @@ main {
     display: flex;
     justify-content: center;
 }
+
 .grid-layout {
     width: 100%;
     display: grid;
@@ -102,6 +131,7 @@ main {
     grid-gap: 10px;
     grid-auto-flow: dense;
 }
+
 .project-image {
     border: 4px solid var(--teal);
     display: flex;
@@ -146,91 +176,28 @@ main {
     float: center;
     font-family: var(--font);
     font-size: 20px;
+    margin-top: 40px;
+}
 
+.section-contents nav ul li {
+    display: inline-block;
+    margin-left: 60px;
+    border-bottom: 5px solid var(--dark-blue);
+    padding: 4px;
+}
+
+.section-contents nav ul li a {
+    color: var(--dark-blue);
+    text-decoration: none;
 }
 
 /* Footer styling */
 footer {
-background-color: #e6e6ff;
-text-align: center;
-font-family: var(--font);
-font-size: 13px;
-color:#263763;
-margin: -10px;
-font-style: normal;
-}
-
-/*Media queries for various screen resolution*/
-@media screen and (max-width: 1292px) {
-    .section-contents {
-        display: inline;
-    }
-
-    .section-contents p {
-        width: 100%;
-    }
-
-    .about-me-picture {
-        float: left;
-        margin-right: 15px;
-    }
-
-    .contact {
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 1028px) {
-    header  {
-        padding-bottom: 0;
-        position: relative;
-        justify-content: center;
-    }
-    
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-    
-    .grid-layout {
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(4, 100px);
-    }
-
-    .capture {
-        opacity: 1;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    main {
-        padding: 0 15px;
-    }
-    .section {
-        display: inline;
-    }
-
-    .section-title {
-        width: 100%;
-        text-align: center;
-        border-right: none;
-        border-bottom: solid black 4px;
-        margin: 20px 0;
-        padding: 0;
-        padding-bottom: 10px;
-    }
-
-    .contact {
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    header nav ul {
-        justify-content: space-around;
-    }
-    
-    header nav ul li a {
-        margin-top: 10px;
-    }
+    background-color: var(--lilac);
+    text-align: center;
+    font-family: var(--font);
+    font-size: 15px;
+    color: var(--dark-blue);
+    padding: 10px;
+    font-style: normal;
 }
