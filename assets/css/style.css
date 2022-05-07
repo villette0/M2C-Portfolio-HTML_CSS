@@ -23,6 +23,7 @@
 
 /* Navigation link styling */
 .header nav {
+    padding-top: 15px;
     margin-right: 80px;
     float: right;
     font-family: var(--font);
@@ -51,7 +52,7 @@
     background-position: center;
 }
 
-.background-image h2 {
+.background-image h1 {
     float: right;
     margin-top: 100px;
     padding: 3px;
@@ -200,4 +201,15 @@ footer {
     color: var(--dark-blue);
     padding: 10px;
     font-style: normal;
+}
+
+/* Smaller screen size */
+@media screen and (max-width: 885px) {
+    .header {
+        height: 150px;
+    }
+    .header nav {
+        float: left;
+        margin-left: 200px;
+    }
 }
