@@ -1,4 +1,4 @@
-# VC Portfolio
+# Portfolio
 
 ## Website Description
 
