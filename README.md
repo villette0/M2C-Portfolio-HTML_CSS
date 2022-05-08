@@ -1,4 +1,4 @@
-# Portfolio
+# Villette Comfort Portfolio
 
 ## Website Description
 
@@ -6,7 +6,8 @@ A portfolio website that gives samples of my, Villette Comfort's, coding abiliti
 
 ## Challenge Description
 
-This project encompassed creating a website without starter code.  The portfolio includes spaces to showcase samples of work along with a short biography and contact links.
+This project encompassed creating a website without starter code.  The portfolio includes spaces to showcase samples of work along with a short biography and contact links. There is 
+a responsive layout with a grid that has the first project as the largest shown. Internal links bring the user to designated sections and external links navigate to completed projects. 
 
 ## User Story
 
@@ -39,14 +40,19 @@ The HTML document includes:
 * a proper title and SEO metadata
 * proper HTML semantic labelling
 * alt attributes of images for accessibility
-* working links
+* photo, about me, work samples, and contact information
+* internal links that scroll to corresponding sections
+* external links to projects
+* placeholders for future projects
 * comments
 
 The CSS document includes:
-* condensed elements
-* an organized structure that matched the HTML order
+* an organized structure that matches the HTML order
 * variables for repetitive values
+* flex and media queries for a responsive layout
+* a grid with the first project the largest size
 * comments
+
 
 ## Languages
 - HTML
