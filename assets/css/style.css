@@ -128,9 +128,15 @@ main {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(3, 175px);
+    grid-template-rows: repeat(3, 175px); 
     grid-gap: 10px;
     grid-auto-flow: dense;
+}
+
+/* One larger project on grid */
+#project-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 .project-image {
@@ -164,11 +170,13 @@ main {
 .project-description h3 {
     font-size: 16px;
     font-family: var(--font);
+    padding-bottom: 7px;
 }
 
 .project-description p {
     font-size: 11px;
     font-family: var(--font);
+    line-height: 13px;
 }
 
 /* Contact styling */
