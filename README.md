@@ -59,9 +59,9 @@ The CSS document includes:
 - CSS
 
 ## Links
-* [Deployed webpage](https://villettec.github.io/Module_2_Challenge-Villette_Comfort_Portfolio/)
+* [Deployed webpage](https://villettec.github.io/M2C-Villette_Comfort_Portfolio/)
 
-* [Repository](https://github.com/villettec/Module_2_Challenge-Villette_Comfort_Portfolio)
+* [Repository](https://github.com/villettec/M2C-Villette_Comfort_Portfolio/)
 
 ## Screenshot
 ![image](./assets/images/readme-screenshot.png)
