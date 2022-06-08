@@ -6,8 +6,7 @@ A portfolio website that gives samples of my, Villette Comfort's, coding abiliti
 
 ## Challenge Description
 
-This project encompassed creating a website without starter code.  The portfolio includes spaces to showcase samples of work along with a short biography and contact links. There is 
-a responsive layout with a grid that has the first project as the largest shown. Internal links bring the user to designated sections and external links navigate to completed projects. 
+This project encompassed creating a website without starter code.  The portfolio includes spaces to showcase samples of work along with a short biography and contact links. There is a responsive layout with a grid that has the first project as the largest shown. Internal links bring the user to designated sections and external links navigate to completed projects. 
 
 ## User Story
 
