@@ -1,4 +1,4 @@
-# Villette Comfort Portfolio
+# Villette Portfolio
 
 ## Website Description
 
@@ -58,15 +58,11 @@ The CSS document includes:
 - CSS
 
 ## Links
-* [Deployed webpage](https://villettec.github.io/M2C-Villette_Comfort_Portfolio/)
+* [Deployed webpage](https://villette0.github.io/M2C-Villette_Comfort_Portfolio/)
 
-* [Repository](https://github.com/villettec/M2C-Villette_Comfort_Portfolio/)
+* [Repository](https://github.com/villette0/M2C-Villette_Comfort_Portfolio/)
 
 ## Screenshot
 ![image](./assets/images/readme-screenshot.png)
 
-## Credit
-Villette Comfort
-
-villette@live.com
 
