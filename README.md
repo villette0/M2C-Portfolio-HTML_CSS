@@ -2,7 +2,7 @@
 
 ## Website Description
 
-A portfolio website that gives samples of my, Villette Comfort's, coding abilities through various projects.
+A portfolio website that gives samples of my coding abilities through various projects.
 
 ## Challenge Description
 
@@ -58,9 +58,9 @@ The CSS document includes:
 - CSS
 
 ## Links
-* [Deployed webpage](https://villette0.github.io/M2C-Villette_Comfort_Portfolio/)
+* [Deployed webpage](https://villette0.github.io/M2C-Portfolio-HTML_CSS/)
 
-* [Repository](https://github.com/villette0/M2C-Villette_Comfort_Portfolio/)
+* [Repository](https://github.com/villette0/M2C-Portfolio-HTML_CSS/)
 
 ## Screenshot
 ![image](./assets/images/readme-screenshot.png)
